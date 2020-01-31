@@ -2,6 +2,12 @@ html {
   background-color:#ccc;
 }
 
+i.logo {
+  color:darkred;
+  text-shadow:1px 1px #ccc;
+  font-size:1.25em;
+  margin-left:1%;
+}
 main.wrapper {
   background-color: #ccc;
   overflow:auto;
@@ -12,14 +18,32 @@ h1>a {
   color:#000;
 }
 
+h1{
+text-align: center
+}
+h3{
+  text-align: center;
+}
+
 .logo {
-  color:red;
+  color: brown;
   margin-left:1%;
   text-shadow:1px 1px #ccc;
   font-size:1.25em;
 }
 body{
 background-color: brown;
+}
+
+.pageID{
+  text-align: center;
+}
+
+p{
+  color: black;
+  font-size: 20px;
+}
+
 }
 div.embed-container {
   position: relative;
@@ -52,22 +76,22 @@ footer {
 		float:left;
 	}
 	
-     aside {	
+    aside {	
 		width:34%;
-		float:right;
+    float:right;
 	}
-			
     img.desktop {
       		float:left;
        		width:50%;
             display:inline-block;
+            margin: 50px;
     }
     
     img.tablet, img.phone {
        	display:none;
     	}  
     ul.topnav li a.selected {
-        		background-color: #ccc;
+        		background-color: brown;
         		color:#000;
    	 }
 }
@@ -87,6 +111,7 @@ footer {
     img.tablet {
        		width:100%;
             display:inline-block;
+            margin: 50px;
     }
     
     img.desktop, img.phone {
@@ -95,7 +120,7 @@ footer {
     
     
     ul.topnav li a.selected {
-        background-color: #ccc;
+        background-color: brown;
         color:#000;
     }
 }
